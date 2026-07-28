@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactBook - Add Post</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-card" style="max-width: 600px;">
+            <div class="page-header">
+                <div class="header-text">
+                    <h1>Add Post</h1>
+                    <p>Create a new blog post</p>
+                </div>
+            </div>
+
+            <form method="POST" action="{% url 'post_add' %}">
+                {% csrf_token %}
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label class="form-label" for="title">Title</label>
+                        <input type="text" id="title" name="title" class="form-input" required>
+                    </div>
+                    
+                    <div class="form-group" style="grid-column: 1 / -1;">
+                        <label class="form-label" for="content">Content</label>
+                        <textarea id="content" name="content" class="form-input" rows="6" required></textarea>
+                    </div>
+                </div>
+
+                <div class="action-buttons" style="justify-content: flex-end; margin-top: 1rem;">
+                    <a href="{% url 'home' %}" class="btn-secondary">Cancel</a>
+                    <button type="submit" class="btn-primary">Add Post</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
