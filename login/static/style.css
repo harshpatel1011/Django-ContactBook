@@ -1,20 +1,20 @@
 :root {
-    /* Color Palette - Claude Inspired Orange & White Theme */
-    --bg-main: #FAF8F5;      /* Warm off-white */
-    --bg-card: #FFFFFF;      /* Pure white for cards */
-    --bg-card-hover: #F2EFEA; /* Slightly darker warm tone for hover */
-    --border-color: #E3DDD5; /* Warm light gray borders */
-    --glass-border: rgba(0, 0, 0, 0.05);
+    /* Color Palette - Premium White & Black Theme */
+    --bg-main: #f9fafb;      /* very light gray for body */
+    --bg-card: #ffffff;      /* pure white for cards */
+    --bg-card-hover: #f3f4f6; /* slightly darker for hover */
+    --border-color: #e5e7eb; /* light gray borders */
+    --glass-border: rgba(0, 0, 0, 0.1);
     
-    --text-primary: #332D28; /* Deep warm gray/brown */
-    --text-secondary: #6E665F; /* Medium warm gray text */
-    --text-muted: #9C958F;   /* Muted warm gray text */
+    --text-primary: #000000; /* pure black text */
+    --text-secondary: #4b5563; /* medium gray text */
+    --text-muted: #6b7280;   /* muted gray text */
     
-    --primary: #D76945;      /* Claude orange */
-    --primary-hover: #C05938;/* Darker orange hover */
-    --secondary: #F2EFEA;    /* Light warm accents */
+    --primary: #000000;      /* black buttons/accents */
+    --primary-hover: #1f2937;/* dark gray hover */
+    --secondary: #f3f4f6;    /* light gray accents */
     
-    --success: #10b981;      
+    --success: #10b981;      /* emerald-500 (keep some utility colors) */
     --warning: #f59e0b;      
     --danger: #ef4444;       
 
