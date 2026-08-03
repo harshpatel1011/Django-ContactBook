@@ -1,31 +1,33 @@
 :root {
-    /* Color Palette - Premium Dark Blue & White Theme */
-    --bg-main: #f8fafc;       /* very light blue-gray for body */
-    --bg-card: #ffffff;       /* pure white for cards */
-    --bg-card-hover: #eef2f9; /* soft blue-tinted hover */
-    --border-color: #dbe3ef;  /* light blue-gray borders */
-    --glass-border: rgba(10, 25, 47, 0.1);
-    
-    --text-primary: #0a192f;  /* deep navy text */
-    --text-secondary: #33455e;/* muted navy-gray text */
-    --text-muted: #64748b;    /* slate gray text */
-    
-    --primary: #0a2540;       /* dark blue buttons/accents */
-    --primary-hover: #123a5e; /* lighter navy hover */
-    --secondary: #eef2f9;     /* light blue accents */
-    
-    --success: #10b981;       /* emerald-500 (keep some utility colors) */
-    --warning: #f59e0b;      
-    --danger: #ef4444;       
-    /* Shadows & Effects */
-    --shadow-sm: 0 1px 2px 0 rgba(10, 37, 64, 0.06);
-    --shadow-md: 0 4px 6px -1px rgba(10, 37, 64, 0.08), 0 2px 4px -1px rgba(10, 37, 64, 0.04);
-    --shadow-glow: 0 0 15px rgba(10, 37, 64, 0.08);
-    
-    --border-radius-sm: 0px; /* Sharp corners for premium feel */
-    --border-radius-md: 0px; 
+    /* Premium Dark & Purple Color Palette */
+    --bg-main: #09090f;
+    --bg-card: #13111c;
+    --bg-card-hover: #1c1828;
+    --border-color: #322b46;
+    --glass-border: rgba(167, 139, 250, 0.12);
+
+    --text-primary: #f8f7ff;
+    --text-main: #f8f7ff;
+    --text-secondary: #c8c2dd;
+    --text-muted: #8d86a8;
+
+    --primary: #8b5cf6;
+    --primary-hover: #a78bfa;
+    --secondary: #241b3d;
+    --accent: #c084fc;
+
+    --success: #22c55e;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.45);
+    --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.5);
+    --shadow-glow: 0 0 25px rgba(139, 92, 246, 0.28);
+
+    --border-radius-sm: 0px;
+    --border-radius-md: 0px;
     --border-radius-lg: 0px;
-    
+
     --transition-fast: 0.2s ease;
     --transition-normal: 0.3s ease;
 }
