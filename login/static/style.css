@@ -1,30 +1,30 @@
 :root {
-    /* Premium Dark & Purple Color Palette */
-    --bg-main: #09090f;
-    --bg-card: #13111c;
-    --bg-card-hover: #1c1828;
-    --border-color: #322b46;
-    --glass-border: rgba(167, 139, 250, 0.12);
+    /* Color Palette - Slate & Verdigris Theme */
+    --bg-main: #12181f;       /* deep warm-slate, near-black */
+    --bg-card: #182029;       /* slightly raised panel */
+    --bg-card-hover: #202a35; /* hover state */
+    --border-color: #2b3742;  /* muted slate border */
+    --glass-border: rgba(238, 242, 239, 0.08);
 
-    --text-primary: #f8f7ff;
-    --text-main: #f8f7ff;
-    --text-secondary: #c8c2dd;
-    --text-muted: #8d86a8;
+    --text-primary: #eef2ef;  /* warm off-white */
+    --text-main: #eef2ef;     /* alias for text-primary used in templates */
+    --text-secondary: #a6b5b0;/* muted sage-gray */
+    --text-muted: #6f7f7a;    /* dim sage */
 
-    --primary: #8b5cf6;
-    --primary-hover: #a78bfa;
-    --secondary: #241b3d;
-    --accent: #c084fc;
+    --primary: #4f8577;       /* oxidized verdigris */
+    --primary-hover: #649a8b; /* lighter verdigris */
+    --secondary: #223038;     /* dark teal-slate */
+    --accent: #c48a4e;        /* aged brass, for one signature highlight */
 
-    --success: #22c55e;
-    --warning: #f59e0b;
-    --danger: #ef4444;
+    --success: #6fae4a;
+    --warning: #d9a441;
+    --danger: #c4573f;
 
-    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.45);
-    --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.5);
-    --shadow-glow: 0 0 25px rgba(139, 92, 246, 0.28);
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.35), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+    --shadow-glow: 0 0 15px rgba(79, 133, 119, 0.12);
 
-    --border-radius-sm: 0px;
+    --border-radius-sm: 0px; /* keeping the sharp-corner language */
     --border-radius-md: 0px;
     --border-radius-lg: 0px;
 
