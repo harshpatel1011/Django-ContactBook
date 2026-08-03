@@ -1,30 +1,29 @@
 :root {
-    /* Color Palette - Slate & Verdigris Theme */
-    --bg-main: #12181f;       /* deep warm-slate, near-black */
-    --bg-card: #182029;       /* slightly raised panel */
-    --bg-card-hover: #202a35; /* hover state */
-    --border-color: #2b3742;  /* muted slate border */
-    --glass-border: rgba(238, 242, 239, 0.08);
+    /* Color Palette - Dark & Purple Theme */
+    --bg-main: #0d0b14;       /* near-black purple-tinted page bg */
+    --bg-card: #1a1728;       /* dark card surface */
+    --bg-card-hover: #241f38; /* lighter purple-tinted hover */
+    --border-color: #2a2540;  /* subtle purple-gray border */
+    --glass-border: rgba(124, 58, 237, 0.15);
 
-    --text-primary: #eef2ef;  /* warm off-white */
-    --text-main: #eef2ef;     /* alias for text-primary used in templates */
-    --text-secondary: #a6b5b0;/* muted sage-gray */
-    --text-muted: #6f7f7a;    /* dim sage */
+    --text-primary: #f1eefc;  /* near-white with slight purple tint */
+    --text-secondary: #c3bce0;/* muted lavender text */
+    --text-muted: #8f87ab;    /* dim purple-gray text */
 
-    --primary: #4f8577;       /* oxidized verdigris */
-    --primary-hover: #649a8b; /* lighter verdigris */
-    --secondary: #223038;     /* dark teal-slate */
-    --accent: #c48a4e;        /* aged brass, for one signature highlight */
+    --primary: #7c3aed;       /* vivid violet buttons/accents */
+    --primary-hover: #9457f5; /* lighter violet hover */
+    --secondary: #241f38;     /* dark purple accents */
 
-    --success: #6fae4a;
-    --warning: #d9a441;
-    --danger: #c4573f;
+    --success: #10b981;       /* emerald-500 (kept for utility clarity) */
+    --warning: #f59e0b;
+    --danger: #ef4444;
 
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.35), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
-    --shadow-glow: 0 0 15px rgba(79, 133, 119, 0.12);
+    /* Shadows & Effects */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    --shadow-glow: 0 0 15px rgba(124, 58, 237, 0.25);
 
-    --border-radius-sm: 0px; /* keeping the sharp-corner language */
+    --border-radius-sm: 0px;
     --border-radius-md: 0px;
     --border-radius-lg: 0px;
 
