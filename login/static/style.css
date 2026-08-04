@@ -1,32 +1,31 @@
 :root {
-    /* Color Palette - Dark & Purple Theme */
-    --bg-main: #0d0b14;       /* near-black purple-tinted page bg */
-    --bg-card: #1a1728;       /* dark card surface */
-    --bg-card-hover: #241f38; /* lighter purple-tinted hover */
-    --border-color: #2a2540;  /* subtle purple-gray border */
-    --glass-border: rgba(124, 58, 237, 0.15);
-
-    --text-primary: #f1eefc;  /* near-white with slight purple tint */
-    --text-secondary: #c3bce0;/* muted lavender text */
-    --text-muted: #8f87ab;    /* dim purple-gray text */
-
-    --primary: #7c3aed;       /* vivid violet buttons/accents */
-    --primary-hover: #9457f5; /* lighter violet hover */
-    --secondary: #241f38;     /* dark purple accents */
-
-    --success: #10b981;       /* emerald-500 (kept for utility clarity) */
-    --warning: #f59e0b;
-    --danger: #ef4444;
-
+    /* Color Palette - Premium Dark Blue & White Theme */
+    --bg-main: #f8fafc;       /* very light blue-gray for body */
+    --bg-card: #ffffff;       /* pure white for cards */
+    --bg-card-hover: #eef2f9; /* soft blue-tinted hover */
+    --border-color: #dbe3ef;  /* light blue-gray borders */
+    --glass-border: rgba(10, 25, 47, 0.1);
+    
+    --text-primary: #0a192f;  /* deep navy text */
+    --text-secondary: #33455e;/* muted navy-gray text */
+    --text-muted: #64748b;    /* slate gray text */
+    
+    --primary: #0a2540;       /* dark blue buttons/accents */
+    --primary-hover: #123a5e; /* lighter navy hover */
+    --secondary: #eef2f9;     /* light blue accents */
+    
+    --success: #10b981;       /* emerald-500 (keep some utility colors) */
+    --warning: #f59e0b;      
+    --danger: #ef4444;       
     /* Shadows & Effects */
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
-    --shadow-glow: 0 0 15px rgba(124, 58, 237, 0.25);
-
-    --border-radius-sm: 0px;
-    --border-radius-md: 0px;
+    --shadow-sm: 0 1px 2px 0 rgba(10, 37, 64, 0.06);
+    --shadow-md: 0 4px 6px -1px rgba(10, 37, 64, 0.08), 0 2px 4px -1px rgba(10, 37, 64, 0.04);
+    --shadow-glow: 0 0 15px rgba(10, 37, 64, 0.08);
+    
+    --border-radius-sm: 0px; /* Sharp corners for premium feel */
+    --border-radius-md: 0px; 
     --border-radius-lg: 0px;
-
+    
     --transition-fast: 0.2s ease;
     --transition-normal: 0.3s ease;
 }
